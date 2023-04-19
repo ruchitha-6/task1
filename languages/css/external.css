@@ -1,0 +1,13 @@
+h1{
+    height:100px;
+    width:100px;
+    background-color: crimson;
+}
+h2{
+    background-color:aqua;
+    font-style:italic;
+}
+h3{
+    font-style:oblique;
+    background-color: brown;
+}
