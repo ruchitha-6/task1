@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+        .item{
+            background-color: pink;
+            font-size: 30px;
+            color: black;
+            display: none;
+        }
+        @media (max-width:250px){
+            #item-1{
+                display: block;
+                background-color: violet;
+            }
+        }
+        @media (min-width:251px) and (max-width:600px){
+            #item-2{
+                display: block;
+                background-color: rgb(0, 255, 34);
+            }
+        }
+        @media (min-width:601px) and (max-width:900px){
+            #item-3{
+                display: block;
+                background-color: rgb(255, 140, 0);
+            }
+        }
+    </style>
+<div class="item" id="item-1">TOUCAN PAYMENTS STATEMENT-which starts from 0px ends at 250px</div>
+<div class="item" id="item-2">TOUCAN PAYMENTS PVT LTD--which starts from 251px ends at 600px</div>
+<div class="item" id="item-3">TOUCAN PAYMENTS ANGULAR--which starts from 601px ends at 900px</div>
+</body>
+</html>
